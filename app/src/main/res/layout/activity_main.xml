@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_span="5"
+            android:text="초기화"
+            />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_span="5"
+            android:hint="숫자 1 "
+            />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_span="5"
+            android:hint="숫자 2 "
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="0"
+            android:layout_width="60dp"
+            android:id="@+id/btn0"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="1"
+            android:layout_width="60dp"
+            android:id="@+id/btn1"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="2"
+            android:layout_width="60dp"
+            android:id="@+id/btn2"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="3"
+            android:layout_width="60dp"
+            android:id="@+id/btn3"
+            android:layout_weight="1"
+            />
+        <Button
+            android:text="4"
+            android:layout_width="60dp"
+            android:id="@+id/btn4"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="5"
+            android:layout_width="60dp"
+            android:id="@+id/btn5"
+            />
+        <Button
+            android:text="6"
+            android:layout_width="60dp"
+            android:id="@+id/btn6"
+            />
+        <Button
+            android:text="7"
+            android:layout_width="60dp"
+            android:id="@+id/btn7"
+            />
+        <Button
+            android:text="8"
+            android:layout_width="60dp"
+            android:id="@+id/btn8"
+            />
+        <Button
+            android:text="9"
+            android:layout_width="60dp"
+            android:id="@+id/btn9"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_span="5"
+            android:text="DEL"
+            android:id="@+id/btnDel"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_span="5"
+            android:text="+"
+            android:id="@+id/btnPlus"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_span="5"
+            android:text="-"
+            android:id="@+id/btnMinus"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_span="5"
+            android:text="x"
+            android:id="@+id/btnMultiply"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_span="5"
+            android:text="/"
+            android:id="@+id/btnDivide"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv1"
+            />
+    </TableRow>
+
+</TableLayout>
